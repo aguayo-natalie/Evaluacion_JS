@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>MiniTwitter</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Mis estilos -->
+	<link rel="stylesheet" href="assets/css/estilo_minitwitter.css">
+
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	
+	<!-- GoogleFonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+</head>
+<body>
+	<header class="main">
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#"><i class="fab fa-twitter"></i></a>
+		    </div>
+ 			
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+		        <li><a href="#"><i class="fas fa-bell"></i> Notifications</a></li>
+		        <li><a href="#"><i class="fas fa-envelope"></i> Messages</a></li> 
+		      </ul>
+			  
+	          <button type="button" class="btn-color btn-header btn btn-default">Tweet</button>
+			  
+			  <div class="col-lg-2">
+			    <div class="input-group">
+			      <input type="text" class="form-control" placeholder="Search Twitter">
+			      <span class="input-group-btn">
+			        <button class="btn btn-default" type="button"><i class="fas fa-search"></i></button>
+			      </span>
+			    </div><!-- /input-group --> 
+			  </div><!-- /.col-lg-6 -->
+	      	  <img src="assets/img/foto.png" alt="default_profile" class="header-profile">
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</header>
+	
+
+
+	<div class="container left col-sm-4">
+		<div class="row presentacion">
+			<div class="fondo-profile">
+			</div>
+			<img src="assets/img/foto.png" alt="default_profile" class="img-profile-presentacion">
+			<h4><strong>Natalie Aguayo</strong></h4>
+			<p>@nata_aguayo</p>
+		</div>
+
+		<div class="row twitteando">
+			<form id="myform" class="container-fluid">
+				<img src="assets/img/foto.png" alt="default_profile" class="img-profile-tweet">
+				<textarea id="mi-tweet" name="comentarios" rows="5" placeholder="  What's happening?"></textarea>
+				<button type="submit" class="btn-color btn-twitteando btn btn-default">Tweet</button>		
+			</form>		
+		</div>
+	</div>
+	
+
+	<div id="tweet-card" class="container right col-sm-7">
+		<div class="row card">
+				<div class="cerrar">
+					<button><i class="fas fa-times-circle"></i></button>
+				</div>
+	
+        		<div class="autor-tweet">
+         			<h4 class="nombre-autor-tweet"><strong>Natalie Aguayo </strong><small> @nata_aguayo</small></h4>
+       			</div>
+
+       			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni eius vitae ex deleniti harum at expedita asperiores laborum repellat. Incidunt, porro dolores vitae. Aperiam commodi ducimus deleniti, quia reprehenderit laboriosam!</p>
+				
+				<div class="likes">
+	         		<button class="likeable" href="#">
+	      				<i class="fas fa-heart"></i>
+	    			</button>
+
+	    			<div class="likes-numero">0</div>
+	    		</div>		
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+	<!-- jQuery -->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="assets/js/script_minitwitter.js"></script>
+</body>
+</html>

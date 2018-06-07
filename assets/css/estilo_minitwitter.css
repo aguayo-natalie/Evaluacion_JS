@@ -1,0 +1,169 @@
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color: #515151;
+	background: #e6ecf0;}
+
+
+/* Navbar */
+.navbar-brand {
+ 	transform: translateX(-50%);
+  	left: 50%;
+  	position: absolute;}
+
+.navbar-default {
+    border-color: #9E9E9E;}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #1da1f2;}
+
+.btn {
+	border-radius: 40px;}
+
+.btn-default {
+	background-image: none;}
+
+.btn-color {
+	background-color: #1da1f2; 
+	color: white;     
+	text-shadow: none; 
+	border: none;}
+
+.btn-color:hover {
+	background-color: #006dbf; 
+	color: white;}
+
+.btn-header {
+	float: right;         
+	padding: 0.5em 1.7em;
+    margin: 0.55em 1.5em 0.55em 0;}
+
+.form-control {
+	border-radius: 40px;}
+
+.col-lg-2 {
+	float: right; 
+	padding: 0.55em;
+	margin-right: 3em;}
+
+.fa-twitter {
+	color: #1da1f2;}
+
+.fa-twitter:hover {
+	color: #1da1f2;}
+
+.fa-home {
+    color: #1da1f2;}
+
+.fa-bell {
+    color: #1da1f2;}
+
+.fa-envelope {
+    color: #1da1f2;}
+
+.header-profile {
+    border-radius: 5em;
+    width: 2.3em;
+    height: 2.3em;
+    /* transform: translateX(-50%); */
+    right: 9.3em;
+    top: 0.65em;
+    position: absolute;}
+
+
+
+/* Left */
+.left {margin: 0 2em 0 2em;}
+
+.presentacion {
+    background-color: white;
+    height: 13em;
+    margin-top: 5em;
+	text-align: center;}
+
+.twitteando {
+    margin-top: 1em;
+    background-color: #f2f9fe;
+    position: relative;
+    clear: both;}
+
+textarea {
+    border-radius: 0.5em;
+    border: 2px solid #C6E7FB;
+    margin-top: 2em;
+    margin-left: 4em;
+    width: 85%;}
+
+::placeholder {
+	color: #b9b9b9;
+	padding-top: 0.8em;}
+
+.btn-twitteando {
+    float: right;
+    padding: 0.5em 1.7em;
+    margin: 0.8em 0 1em 0;}
+
+.img-profile-tweet {
+    position: absolute;
+    top: 2em;
+    border-radius: 5em;
+    width: 3em;
+    height: 3em;
+    left: 1.5em;}
+	
+.fondo-profile {
+	background-color: #1DA1F2;     
+	height: 50%; 
+	padding-left: 0px;
+    padding-right: 0px;}
+
+.img-profile-presentacion {
+    border-radius: 5em;
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    bottom: 19em;
+    left: 2em;
+    border: 3px solid #fff;}
+
+
+
+/* Right */
+.right {
+    	float: right; 
+    	margin: 5em 2em 0 1em;}
+
+.card {
+    	margin-bottom: 1em; 
+    	background-color: white; 
+    	padding: 3em;
+    	overflow: auto;}
+
+.likeable {
+    color: #ccc;
+    transition: all .35s ease-out;}
+    
+ .likeable-red {
+  color: tomato;}
+
+.cerrar {
+	float: right;
+	color: #1da1f2;
+	font-size: 1.3em;}
+
+
+button {border-top-width: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        border-bottom-width: 0px;
+        padding-bottom: 0px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        outline-offset: 0;
+        outline: 0;}
+
+.likes-numero {
+    float: right;
+    margin-right: 44.7em;}
+
+
